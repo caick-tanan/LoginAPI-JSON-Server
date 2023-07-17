@@ -1,0 +1,68 @@
+{
+  "user": [
+    {
+      "id": "lucas",
+      "name": "lucasadm",
+      "password": "Caick951*",
+      "email": "lu@g.com",
+      "gender": "male",
+      "role": "admin",
+      "isactive": true
+    },
+    {
+      "id": "caicks2",
+      "name": "caick admin",
+      "password": "Caick951*",
+      "email": "c@c.com",
+      "gender": "male",
+      "role": "",
+      "isactive": true
+    },
+    {
+      "id": "caicks3",
+      "name": "caick admin",
+      "password": "Caick951*",
+      "email": "c@c.com",
+      "gender": "male",
+      "role": "staff",
+      "isactive": true
+    },
+    {
+      "id": "caicks4",
+      "name": "caick admin",
+      "password": "Caick951*",
+      "email": "c@c.com",
+      "gender": "male",
+      "role": "",
+      "isactive": false
+    },
+    {
+      "id": "caicks5",
+      "name": "caick admin",
+      "password": "Caick951*",
+      "email": "c@c.com",
+      "gender": "male",
+      "role": "",
+      "isactive": false
+    },
+    {
+      "id": "caicks6",
+      "name": "caick admin",
+      "password": "Caick951*",
+      "email": "c@c.com",
+      "gender": "male",
+      "role": "",
+      "isactive": false
+    }
+  ],
+  "role": [
+    {
+      "code": "staff",
+      "name": "staff"
+    },
+    {
+      "code": "quality",
+      "name": "quality"
+    }
+  ]
+}
