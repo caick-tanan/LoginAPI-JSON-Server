@@ -57,12 +57,86 @@
   ],
   "role": [
     {
-      "code": "staff",
-      "name": "staff"
+      "code": "user",
+      "name": "User"
     },
     {
-      "code": "quality",
-      "name": "quality"
+      "code": "tech",
+      "name": "Technician"
+    }
+  ],
+  "menu": [
+    {
+      "code": "user",
+      "name": "User"
+    },
+    {
+      "code": "customer",
+      "name": "Customer"
+    }
+  ],
+  "roleaccess": [
+    {
+      "role": "admin",
+      "menu": "user",
+      "haveedit":true,
+      "haveadd":true,
+      "havedelete":true
+    },
+    {
+      "role": "admin",
+      "menu": "customer",
+      "haveedit":true,
+      "haveadd":true,
+      "havedelete":true
+    },
+    {
+      "role": "user",
+      "menu": "user",
+      "haveedit":false,
+      "haveadd":false,
+      "havedelete":false
+    },
+    {
+      "role": "user",
+      "menu": "customer",
+      "haveedit":true,
+      "haveadd":true,
+      "havedelete":false
+    },
+    {
+      "role": "tech",
+      "menu": "customer",
+      "haveedit": false,
+      "haveadd": true,
+      "havedelete": false
+    }
+  ],
+  "customer":[
+    {
+      "id":1,
+      "name":"rakhesh",
+      "Creditlimit":1000
+    },
+    {
+      "id":2,
+      "name":"rahul",
+      "Creditlimit":1000
+    },
+    {
+      "id":3,
+      "name":"ramesh",
+      "Creditlimit":1000
+    },
+    {
+      "id":4,
+      "name":"rahim",
+      "Creditlimit":1000
+    },
+    {
+      "id":5,
+      "name":"robert",
+      "Creditlimit":1000
     }
   ]
 }
